@@ -1,0 +1,9 @@
+global-styling:
+  css:
+    theme:
+      dist/css/nep.css: {}
+  js:
+    dist/js/nep.js: {}
+    https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js: {}
+  dependencies:
+    - claro/media_library.theme

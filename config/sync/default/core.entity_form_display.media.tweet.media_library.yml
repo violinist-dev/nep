@@ -1,0 +1,22 @@
+uuid: ad40d828-a569-4642-8847-06cb1dc2d58d
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.media.media_library
+    - field.field.media.tweet.embed_code
+    - field.field.media.tweet.field_media_in_library
+    - media.type.tweet
+id: media.tweet.media_library
+targetEntityType: media
+bundle: tweet
+mode: media_library
+content: {  }
+hidden:
+  created: true
+  embed_code: true
+  field_media_in_library: true
+  name: true
+  path: true
+  status: true
+  uid: true

@@ -1,0 +1,23 @@
+uuid: 406766f9-f805-4af9-9494-46d8cac1e39d
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html_media
+  module:
+    - ckeditor5
+format: basic_html_media
+editor: ckeditor5
+settings:
+  toolbar:
+    items:
+      - bold
+      - italic
+      - '|'
+      - link
+      - blockQuote
+      - bulletedList
+      - numberedList
+      - drupalMedia
+  plugins: {  }
+image_upload: {  }

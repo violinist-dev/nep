@@ -1,0 +1,23 @@
+uuid: 30874214-3e55-43e3-a182-5d92c0d92430
+langcode: und
+status: true
+dependencies:
+  module:
+    - media_entity_twitter
+_core:
+  default_config_hash: JJfzQKRxzJtlEzDVMBiB9pz9RAilNURCbnSgFrHJUxw
+id: tweet
+label: Tweet
+description: 'Represents a tweet.'
+source: twitter
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: embed_code
+  use_twitter_api: true
+  consumer_key: Lg9OR6pF3nI80s49pRcyZ9PPR
+  consumer_secret: null
+  oauth_access_token: 30140693-Ztt2NfsgleU5YK1Ox26MfiurLXRw3l0HBtdUSMoXM
+  oauth_access_token_secret: null
+  generate_thumbnails: true
+field_map: {  }

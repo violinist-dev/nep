@@ -1,0 +1,5 @@
+# Schema for the configuration files of the Magazine+ theme.
+
+nep.settings:
+  type: theme_settings
+  label: 'North End Page settings'

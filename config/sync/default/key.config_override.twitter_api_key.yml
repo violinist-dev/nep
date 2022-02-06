@@ -1,0 +1,14 @@
+uuid: c349dc01-c5a2-403d-a4cc-208d05976304
+langcode: en
+status: true
+dependencies:
+  config:
+    - key.key.twitter_api_key_secret
+    - media.type.tweet
+id: twitter_api_key
+label: 'Twitter API Key'
+config_type: media_type
+config_prefix: media.type
+config_name: tweet
+config_item: source_configuration.consumer_secret
+key_id: twitter_api_key_secret

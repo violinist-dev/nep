@@ -1,0 +1,34 @@
+uuid: 7ac4d1b7-6603-4131-a5ee-f7ad98fc1952
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.embedded
+  module:
+    - media
+name: 'Basic HTML & Media'
+format: basic_html_media
+weight: 0
+filters:
+  media_embed:
+    id: media_embed
+    provider: media
+    status: true
+    weight: 100
+    settings:
+      default_view_mode: default
+      allowed_view_modes:
+        embedded: embedded
+      allowed_media_types:
+        image: image
+        remote_video: remote_video
+        tweet: tweet
+  filter_html:
+    id: filter_html
+    provider: filter
+    status: true
+    weight: -10
+    settings:
+      allowed_html: '<br> <p> <strong> <em> <blockquote> <a href> <ul> <ol> <li> <drupal-media data-entity-type data-entity-uuid alt>'
+      filter_html_help: true
+      filter_html_nofollow: false

@@ -1,0 +1,22 @@
+uuid: 4f0dfa86-901f-4b9f-841f-e8d417eec1ec
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: vocab_terms_single_level_
+label: 'Vocab terms (single-level)'
+type: 'canonical_entities:taxonomy_term'
+pattern: 'taxonomy/[term:vocabulary]/[term:name]'
+selection_criteria:
+  588ec020-ea9e-4f3a-971b-f7b225fd0596:
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    uuid: 588ec020-ea9e-4f3a-971b-f7b225fd0596
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    bundles:
+      tags: tags
+selection_logic: and
+weight: -5
+relationships: {  }

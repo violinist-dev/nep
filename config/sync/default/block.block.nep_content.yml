@@ -1,0 +1,22 @@
+uuid: f66c615d-46d7-4369-9fa9-11448b5d15f3
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - nep
+_core:
+  default_config_hash: F5Hd5ACgxbXUwtaZs8H0B2MutImQqrGbFuYX21i3bzU
+id: nep_content
+theme: nep
+region: content
+weight: -5
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

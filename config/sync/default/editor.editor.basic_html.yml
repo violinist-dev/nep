@@ -1,0 +1,22 @@
+uuid: dec38247-608d-4735-b923-dae06a679330
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+  module:
+    - ckeditor5
+format: basic_html
+editor: ckeditor5
+settings:
+  toolbar:
+    items:
+      - bold
+      - italic
+      - '|'
+      - link
+      - blockQuote
+      - bulletedList
+      - numberedList
+  plugins: {  }
+image_upload: {  }

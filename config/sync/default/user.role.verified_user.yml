@@ -1,0 +1,25 @@
+uuid: 43afc4de-a341-4991-ba4b-3d3ea0d8b4e7
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html_media
+    - media.type.image
+    - media.type.instagram
+    - media.type.remote_video
+    - media.type.tweet
+  module:
+    - comment
+    - filter
+    - media
+id: verified_user
+label: 'Verified user'
+weight: 4
+is_admin: null
+permissions:
+  - 'create image media'
+  - 'create instagram media'
+  - 'create remote_video media'
+  - 'create tweet media'
+  - 'skip comment approval'
+  - 'use text format basic_html_media'

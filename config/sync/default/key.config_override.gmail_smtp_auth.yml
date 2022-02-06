@@ -1,0 +1,14 @@
+uuid: b6b74cd6-a533-4763-80ce-b4d70aacb870
+langcode: en
+status: true
+dependencies:
+  config:
+    - key.key.gmail_smtp_auth
+    - smtp.settings
+id: gmail_smtp_auth
+label: 'Gmail SMTP Auth'
+config_type: system.simple
+config_prefix: ''
+config_name: smtp.settings
+config_item: smtp_password
+key_id: gmail_smtp_auth

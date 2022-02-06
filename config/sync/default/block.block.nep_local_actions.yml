@@ -1,0 +1,20 @@
+uuid: c7bf0cbd-0136-4b5d-a260-800918dbf672
+langcode: en
+status: true
+dependencies:
+  theme:
+    - nep
+_core:
+  default_config_hash: FJMgOAiDE2kU4uQWB1C1wkWkgVv-Tw46So3o6Zyy2qQ
+id: nep_local_actions
+theme: nep
+region: content
+weight: -7
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 4ee11653-93a3-4bd7-9942-f9e13cfab673
+langcode: en
+status: true
+dependencies:
+  theme:
+    - nep
+_core:
+  default_config_hash: Qf2BoIzd9py5AYXZj8fJzCYDyVk1-AWXcu-AqQeDZKA
+id: nep_local_tasks
+theme: nep
+region: content
+weight: -6
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

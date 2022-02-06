@@ -1,0 +1,14 @@
+uuid: 640b0901-9f89-464d-a50b-b72f0b39d887
+langcode: en
+status: true
+dependencies:
+  config:
+    - key.key.twitter_access_token_secret
+    - media.type.tweet
+id: twitter_access_token
+label: 'Twitter Access Token'
+config_type: media_type
+config_prefix: media.type
+config_name: tweet
+config_item: source_configuration.oauth_access_token_secret
+key_id: twitter_access_token_secret

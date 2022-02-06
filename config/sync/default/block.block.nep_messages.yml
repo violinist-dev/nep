@@ -1,0 +1,22 @@
+uuid: 717d9c2e-fe12-4209-84e8-a280a88ef3bb
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - nep
+_core:
+  default_config_hash: H0MaLIOjLhalZI71RjePrh_wnGD1XiqEHOkw00Fc5a4
+id: nep_messages
+theme: nep
+region: system_messages
+weight: -8
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }
