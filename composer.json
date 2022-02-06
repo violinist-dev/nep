@@ -112,7 +112,11 @@
         "patchLevel": {
             "drupal/core": "-p2"
         },
-        "patches": {},
+        "patches": {
+            "drupal/google_analytics": {
+                "3246597 - Missing dependency on v4": "https://www.drupal.org/files/issues/2021-11-08/google_analytics-3246597-3-with-packaging-info.patch"
+            }
+        },
         "violinist": {
             "allow_updates_beyond_constraint": 0,
             "blocklist": [
