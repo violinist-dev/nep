@@ -773,9 +773,8 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
   include $app_root . '/' . $site_path . '/settings.local.php';
 }
-if (file_exists('../do/do_creds.php')) {
-    include '../do/do_creds.php';
-
+if (file_exists('/var/www/do/do_creds.php')) {
+    include '/var/www/do/do_creds.php';
 }
 $settings['config_sync_directory'] = '../config/sync/default/';
 
