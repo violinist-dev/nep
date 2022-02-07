@@ -20,6 +20,7 @@ filters:
       allowed_view_modes:
         embedded: embedded
       allowed_media_types:
+        document: document
         image: image
         remote_video: remote_video
         tweet: tweet
