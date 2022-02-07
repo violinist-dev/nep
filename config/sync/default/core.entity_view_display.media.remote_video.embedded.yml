@@ -23,7 +23,7 @@ content:
       max_width: 0
       max_height: 0
     third_party_settings: {  }
-    weight: 2
+    weight: 0
     region: content
 hidden:
   created: true

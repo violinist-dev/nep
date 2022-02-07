@@ -18,6 +18,7 @@ filters:
     settings:
       default_view_mode: default
       allowed_view_modes:
+        default: default
         embedded: embedded
       allowed_media_types:
         document: document
