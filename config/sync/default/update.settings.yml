@@ -9,5 +9,7 @@ fetch:
   timeout: 30
 notification:
   emails:
-    - no-reply@example.com
+    - null
+    - null
+    - null
   threshold: all

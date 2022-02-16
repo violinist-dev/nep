@@ -1,0 +1,14 @@
+uuid: df313043-6f35-4af8-9bab-561abc1889fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.feedback
+    - key.key.contact_email_site_specific_custom_domain
+id: main_contact_form_email_custom_domain
+label: 'Main contact form email - custom domain'
+config_type: contact_form
+config_prefix: contact.form
+config_name: feedback
+config_item: recipients.0
+key_id: contact_email_site_specific_custom_domain

@@ -1,0 +1,14 @@
+uuid: 35a6dc74-e18b-4d82-a3a4-00dc9d56eb04
+langcode: en
+status: true
+dependencies:
+  config:
+    - key.key.contact_email_site_specific_gmail_domain
+    - update.settings
+id: update_notification_email_recipient_site_gmail_recipient
+label: 'Update notification email recipient, site gmail recipient'
+config_type: system.simple
+config_prefix: ''
+config_name: update.settings
+config_item: notification.emails.2
+key_id: contact_email_site_specific_gmail_domain

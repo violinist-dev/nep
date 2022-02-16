@@ -1,0 +1,14 @@
+uuid: ba4337e1-84a3-400d-b8fa-84ee0127f1e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - key.key.contact_email_personal_gmail
+    - update.settings
+id: update_notification_personal_email
+label: 'Update notification - personal email'
+config_type: system.simple
+config_prefix: ''
+config_name: update.settings
+config_item: notification.emails.0
+key_id: contact_email_personal_gmail

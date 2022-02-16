@@ -1,0 +1,14 @@
+uuid: df9419c9-2279-465d-b508-ed16b88857c1
+langcode: en
+status: true
+dependencies:
+  config:
+    - key.key.contact_email_site_specific_custom_domain
+    - update.settings
+id: update_notification_emails_custom_site_email
+label: 'Update notification emails, custom site email'
+config_type: system.simple
+config_prefix: ''
+config_name: update.settings
+config_item: notification.emails.1
+key_id: contact_email_site_specific_custom_domain

@@ -1,0 +1,14 @@
+uuid: b696f72c-f59b-4540-b02f-56ad6bef9d2f
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.feedback
+    - key.key.contact_email_site_specific_gmail_domain
+id: main_contact_form_email_recipient_site_specific_gmail
+label: 'Main contact form email recipient, site specific gmail'
+config_type: contact_form
+config_prefix: contact.form
+config_name: feedback
+config_item: recipients.1
+key_id: contact_email_site_specific_gmail_domain
