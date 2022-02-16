@@ -4,12 +4,13 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.media.thumbnail
+    - field.field.media.image.field_caption
     - field.field.media.image.field_media_image
     - field.field.media.image.field_media_in_library
     - image.style.medium
     - media.type.image
   module:
-    - image
+    - svg_image
 _core:
   default_config_hash: usFhRlzs_Rnc6iWcBtxkWk4Hlflxq6PGk7mdCbhqbN8
 id: media.image.thumbnail
@@ -28,6 +29,7 @@ content:
     region: content
 hidden:
   created: true
+  field_caption: true
   field_media_in_library: true
   name: true
   thumbnail: true

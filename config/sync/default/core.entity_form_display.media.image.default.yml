@@ -3,12 +3,13 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.media.image.field_caption
     - field.field.media.image.field_media_image
     - field.field.media.image.field_media_in_library
     - image.style.thumbnail
     - media.type.image
   module:
-    - image
+    - svg_image
 _core:
   default_config_hash: fXB1QJO9a_uKnQX-NZsYIr3B-JmfLtxRouWWrf75n7U
 id: media.image.default
@@ -16,6 +17,14 @@ targetEntityType: media
 bundle: image
 mode: default
 content:
+  field_caption:
+    type: string_textfield
+    weight: 101
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
   field_media_image:
     type: image_image
     weight: 0

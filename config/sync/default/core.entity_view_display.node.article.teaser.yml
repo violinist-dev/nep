@@ -6,12 +6,11 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.article.body
     - field.field.node.article.comment
-    - field.field.node.article.field_image
+    - field.field.node.article.field_featured_image
+    - field.field.node.article.field_featured_video
     - field.field.node.article.field_tags
-    - image.style.medium
     - node.type.article
   module:
-    - image
     - text
     - user
 _core:
@@ -27,16 +26,30 @@ content:
     settings:
       trim_length: 600
     third_party_settings: {  }
+    weight: 3
+    region: content
+  content_moderation_control:
+    settings: {  }
+    third_party_settings: {  }
     weight: 0
     region: content
-  field_image:
-    type: image
+  field_featured_image:
+    type: entity_reference_entity_view
     label: hidden
     settings:
-      image_link: content
-      image_style: medium
+      view_mode: embedded
+      link: false
     third_party_settings: {  }
-    weight: -1
+    weight: 1
+    region: content
+  field_featured_video:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: thumbnail
+      link: false
+    third_party_settings: {  }
+    weight: 2
     region: content
   field_tags:
     type: entity_reference_label
@@ -44,12 +57,12 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-    weight: 10
+    weight: 4
     region: content
   links:
-    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
     region: content
 hidden:
   comment: true
-  field_image: true
-  field_tags: true

@@ -1,0 +1,17 @@
+.media--view-mode-featured .field--name-field-caption {
+  color: #888;
+  font-style: italic;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.text-formatted article.align-left {
+  margin-right: 16px;
+  margin-top: 12px;
+}
+
+.node__header .profile {
+  margin-right: 6px;
+}
+
+/*# sourceMappingURL=nep.css.map */

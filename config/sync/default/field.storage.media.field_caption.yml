@@ -1,0 +1,21 @@
+uuid: 6e5e2ffc-88b5-4cfe-8d2e-712b86918e77
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.field_caption
+field_name: field_caption
+entity_type: media
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

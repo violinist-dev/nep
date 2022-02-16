@@ -1,0 +1,19 @@
+uuid: 571eb597-235b-41ce-852b-bdf77a89edec
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_caption
+    - media.type.image
+id: media.image.field_caption
+field_name: field_caption
+entity_type: media
+bundle: image
+label: Caption
+description: 'A caption to display with the image. Optional. Only used in certain view modes.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

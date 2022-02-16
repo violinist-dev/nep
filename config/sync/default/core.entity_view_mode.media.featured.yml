@@ -1,0 +1,10 @@
+uuid: 3acfd458-984f-4b76-9643-9fa683cb69d5
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.featured
+label: Featured
+targetEntityType: media
+cache: true
