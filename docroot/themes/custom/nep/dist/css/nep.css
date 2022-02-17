@@ -14,4 +14,26 @@
   margin-right: 6px;
 }
 
+.paragraph-responsive-typography-enabled .text-formatted blockquote:before {
+  background-color: transparent;
+  height: 0;
+  width: 0;
+}
+.paragraph-responsive-typography-enabled .text-formatted blockquote {
+  margin: 0 0 16px;
+  padding: 0;
+}
+.paragraph-responsive-typography-enabled .text-formatted blockquote p:before {
+  content: "";
+}
+.paragraph-responsive-typography-enabled .text-formatted blockquote p {
+  background-color: #fafafa;
+  border-left: 5px solid #f4f4f4;
+  font-size: 96%;
+  padding: 0 0 14px 10px;
+}
+.paragraph-responsive-typography-enabled .text-formatted blockquote p:last-child {
+  padding: 0 0 0 10px;
+}
+
 /*# sourceMappingURL=nep.css.map */
