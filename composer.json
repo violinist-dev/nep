@@ -118,9 +118,7 @@
             "drupal/google_analytics": {
                 "3246597 - Missing dependency on v4": "https://www.drupal.org/files/issues/2021-11-08/google_analytics-3246597-3-with-packaging-info.patch"
             },
-            "drupal/core": {
-                "3260554 - [drupalMedia] Support alignment on <drupal-media>": "https://www.drupal.org/files/issues/2022-02-08/3260554-30-94x.patch"
-            }
+            "drupal/core": {}
         },
         "violinist": {
             "allow_updates_beyond_constraint": 0,
