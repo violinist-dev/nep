@@ -2,7 +2,7 @@ _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: en
 uuid: bacda483-e895-4099-a0d4-c4d717764d87
-name: NorthEnd.page
+name: 'NorthEnd .page'
 mail: NorthEndPage@gmail.com
 slogan: ''
 page:
