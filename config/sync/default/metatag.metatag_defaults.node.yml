@@ -8,13 +8,18 @@ id: node
 label: Content
 tags:
   title: '[node:title] | [site:name]'
+  robots: 'index, follow'
   canonical_url: '[node:url]'
   description: '[node:summary]'
   mask_icon:
     href: ''
     color: ''
-  twitter_cards_image: '[node:field_image]'
+  twitter_cards_creator: '@northendpage'
+  twitter_cards_image: '[node:field_featured_image]'
+  twitter_cards_site: '@northendpage'
   twitter_cards_page_url: '[node:url]'
-  twitter_cards_description: '[node:summary]node'
+  twitter_cards_description: '[node:summary]'
+  twitter_cards_creator_id: '1490160751562133506'
   twitter_cards_type: summary
+  twitter_cards_site_id: '1490160751562133506'
   twitter_cards_title: '[node:title]'
