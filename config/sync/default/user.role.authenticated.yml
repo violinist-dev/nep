@@ -4,12 +4,15 @@ status: true
 dependencies:
   config:
     - filter.format.basic_html
+    - node.type.article
+    - workflows.workflow.content
   module:
     - comment
     - contact
+    - content_moderation
     - filter
-    - google_analytics
     - media
+    - node
     - search
     - system
 _core:
@@ -22,8 +25,9 @@ permissions:
   - 'access comments'
   - 'access content'
   - 'access site-wide contact form'
-  - 'opt-in or out of google analytics tracking'
+  - 'create article content'
   - 'post comments'
   - 'search content'
+  - 'use content transition create_new_draft'
   - 'use text format basic_html'
   - 'view media'

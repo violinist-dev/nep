@@ -6,7 +6,6 @@ dependencies:
     - filter.format.basic_html
     - filter.format.basic_html_media
     - node.type.article
-    - node.type.page
     - taxonomy.vocabulary.tags
     - workflows.workflow.content
   module:
@@ -35,16 +34,11 @@ permissions:
   - 'access toolbar'
   - 'administer url aliases'
   - 'create article content'
-  - 'create page content'
+  - 'create media'
   - 'create terms in tags'
   - 'create url aliases'
-  - 'delete article revisions'
-  - 'delete own article content'
-  - 'delete own page content'
-  - 'delete page revisions'
   - 'edit own article content'
   - 'edit own comments'
-  - 'edit own page content'
   - 'edit terms in tags'
   - 'revert all revisions'
   - 'use content transition archive'
