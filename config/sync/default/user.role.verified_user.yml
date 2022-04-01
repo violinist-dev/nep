@@ -9,7 +9,6 @@ dependencies:
     - media.type.remote_video
     - media.type.tweet
   module:
-    - comment
     - filter
     - media
 id: verified_user
@@ -21,5 +20,4 @@ permissions:
   - 'create instagram media'
   - 'create remote_video media'
   - 'create tweet media'
-  - 'skip comment approval'
   - 'use text format basic_html_media'

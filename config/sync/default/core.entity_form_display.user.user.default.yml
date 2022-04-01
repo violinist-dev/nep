@@ -6,8 +6,8 @@ dependencies:
     - field.field.user.user.user_picture
     - image.style.thumbnail
   module:
-    - image
     - path
+    - svg_image
     - user
 _core:
   default_config_hash: FaQ9Ptcpxpg30AtiqRDtl_8zbJArHP1LPfug_s59TOA
@@ -21,14 +21,9 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  contact:
-    weight: 2
-    region: content
-    settings: {  }
-    third_party_settings: {  }
   path:
     type: path
-    weight: 3
+    weight: 2
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -41,6 +36,7 @@ content:
       preview_image_style: thumbnail
     third_party_settings: {  }
 hidden:
+  contact: true
   google_analytics: true
   language: true
   timezone: true
