@@ -1,8 +1,12 @@
-.media--view-mode-featured .field--name-field-caption {
+.field--name-field-caption {
   color: #888;
   font-style: italic;
   margin-bottom: 20px;
   text-align: center;
+}
+
+#one ~ p:not(#two) {
+  color: red;
 }
 
 .text-formatted article.align-left {
