@@ -1,0 +1,18 @@
+_core:
+  default_config_hash: pKKCV0W4-r3Zf1QQzR2HDXAXmfH81248yrY2d9iR7S4
+riddles:
+  -
+    question: 'What is the name of the North End public pool?'
+    response: 'mirabella,mirabella pool,the mirabella pool'
+  -
+    question: 'Which street has the most restaurants in the North End? (hint: not Salem)'
+    response: 'hanover,hanover street,hanover st'
+  -
+    question: 'Name a place that sells cannoli in the North End.'
+    response: 'mike,mikes,mike''s,mikes pastry,mike''s pastry,modern,modern pastry,parzialle''s,parzialle,parzialles'
+  -
+    question: 'Name a T stop near the North End.'
+    response: 'north station,aquarium,haymarket,north'
+  -
+    question: 'What hospital is nearest to the North End?'
+    response: 'mgh,mass general,massachusetts general hospital'

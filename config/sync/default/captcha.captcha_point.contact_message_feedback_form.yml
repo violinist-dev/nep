@@ -1,0 +1,9 @@
+uuid: 885246e8-8c32-4429-a085-489e395e1918
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: MbTbUeeaumH8DjENUwT0-8uW9UuxyNHbF6jbKCLhYkk
+formId: contact_message_feedback_form
+captchaType: riddler/Riddler
+label: contact_message_feedback_form
