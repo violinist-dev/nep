@@ -7,3 +7,15 @@ definitions:
     weight: -49
     expanded: false
     enabled: true
+  user__page:
+    weight: -50
+    menu_name: account
+    parent: ''
+    enabled: true
+    expanded: false
+  user__logout:
+    weight: -46
+    menu_name: account
+    parent: ''
+    expanded: false
+    enabled: true

@@ -6,7 +6,7 @@ favicon:
   use_default: false
 features:
   comment_user_picture: true
-  comment_user_verification: true
+  comment_user_verification: false
   favicon: true
   node_user_picture: true
 logo:
