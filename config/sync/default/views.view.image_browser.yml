@@ -8,8 +8,8 @@ dependencies:
   module:
     - entity_browser
     - file
-    - image
     - media
+    - svg_image
     - user
 _core:
   default_config_hash: MbFO3AV0pgduCfh6fBIaJ8aOZWNKcw628_GGVaqmIb8
@@ -84,6 +84,8 @@ display:
           settings:
             image_link: ''
             image_style: medium
+            image_loading:
+              attribute: lazy
           group_column: ''
           group_columns: {  }
           group_rows: true
