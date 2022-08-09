@@ -22,6 +22,7 @@ filters:
         default: default
         embedded: embedded
       allowed_media_types:
+        audio: audio
         document: document
         image: image
         remote_video: remote_video
@@ -35,41 +36,17 @@ filters:
       allowed_html: '<br> <p> <h2> <h3> <h4> <h5> <h6> <strong> <em> <blockquote> <a href> <ul> <ol> <li> <drupal-media data-entity-type data-entity-uuid alt data-caption data-align>'
       filter_html_help: true
       filter_html_nofollow: false
-  editor_file_reference:
-    id: editor_file_reference
-    provider: editor
-    status: false
-    weight: -45
-    settings: {  }
-  filter_caption:
-    id: filter_caption
-    provider: filter
-    status: true
-    weight: -50
-    settings: {  }
-  filter_html_image_secure:
-    id: filter_html_image_secure
-    provider: filter
-    status: false
-    weight: -42
-    settings: {  }
   filter_align:
     id: filter_align
     provider: filter
     status: true
     weight: -49
     settings: {  }
-  filter_htmlcorrector:
-    id: filter_htmlcorrector
+  filter_caption:
+    id: filter_caption
     provider: filter
-    status: false
-    weight: -41
-    settings: {  }
-  filter_autop:
-    id: filter_autop
-    provider: filter
-    status: false
-    weight: -44
+    status: true
+    weight: -50
     settings: {  }
   filter_url:
     id: filter_url
@@ -78,6 +55,30 @@ filters:
     weight: -43
     settings:
       filter_url_length: 72
+  editor_file_reference:
+    id: editor_file_reference
+    provider: editor
+    status: false
+    weight: -45
+    settings: {  }
+  filter_html_image_secure:
+    id: filter_html_image_secure
+    provider: filter
+    status: false
+    weight: -42
+    settings: {  }
+  filter_autop:
+    id: filter_autop
+    provider: filter
+    status: false
+    weight: -44
+    settings: {  }
+  filter_htmlcorrector:
+    id: filter_htmlcorrector
+    provider: filter
+    status: false
+    weight: -41
+    settings: {  }
   filter_html_escape:
     id: filter_html_escape
     provider: filter
