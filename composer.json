@@ -118,9 +118,6 @@
             "drupal/core": "-p2"
         },
         "patches": {
-            "drupal/google_analytics": {
-                "3246597 - Missing dependency on v4": "https://www.drupal.org/files/issues/2021-11-08/google_analytics-3246597-3-with-packaging-info.patch"
-            },
             "drupal/core": {}
         },
         "violinist": {
