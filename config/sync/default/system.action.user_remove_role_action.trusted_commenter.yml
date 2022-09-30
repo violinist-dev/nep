@@ -1,0 +1,14 @@
+uuid: ef5f55a0-5bbe-4c16-9336-6ef74d9b226d
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.trusted_commenter
+  module:
+    - user
+id: user_remove_role_action.trusted_commenter
+label: 'Remove the Trusted Commenter role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: trusted_commenter

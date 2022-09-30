@@ -1,0 +1,12 @@
+uuid: c0728d4a-7223-41ed-b672-a7d46015bec4
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+id: trusted_commenter
+label: 'Trusted Commenter'
+weight: 5
+is_admin: null
+permissions:
+  - 'skip comment approval'
