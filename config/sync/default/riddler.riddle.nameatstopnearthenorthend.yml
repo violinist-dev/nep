@@ -1,0 +1,8 @@
+uuid: 9e59e96e-4f06-46c5-adce-22edab43d0a2
+langcode: en
+status: true
+dependencies: {  }
+id: nameatstopnearthenorthend
+question: 'Name a T stop near the North End.'
+solution: 'north station,aquarium,haymarket,north'
+hint: null

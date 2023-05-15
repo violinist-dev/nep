@@ -1,0 +1,8 @@
+uuid: 72816d7a-9b18-4369-a4d2-90b1f8754f9d
+langcode: en
+status: true
+dependencies: {  }
+id: whathospitalisnearesttothenorthend
+question: 'What hospital is nearest to the North End?'
+solution: 'mgh,mass general,massachusetts general hospital'
+hint: null

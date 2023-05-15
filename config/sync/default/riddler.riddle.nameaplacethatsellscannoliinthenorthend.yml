@@ -1,0 +1,8 @@
+uuid: 4e379640-dff3-411b-ae22-74dc9d3e6403
+langcode: en
+status: true
+dependencies: {  }
+id: nameaplacethatsellscannoliinthenorthend
+question: 'Name a place that sells cannoli in the North End.'
+solution: "mike,mikes,mike's,mikes pastry,mike's pastry,modern,modern pastry,parzialle's,parzialle,parzialles"
+hint: null

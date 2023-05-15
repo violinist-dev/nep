@@ -1,0 +1,8 @@
+uuid: 8d881d20-7743-46d6-8da8-9cec45f2f061
+langcode: en
+status: true
+dependencies: {  }
+id: whichstreethasthemostrestaurantsinthenorthendhintnotsalem
+question: 'Which street has the most restaurants in the North End? (hint: not Salem)'
+solution: 'hanover,hanover street,hanover st'
+hint: null
