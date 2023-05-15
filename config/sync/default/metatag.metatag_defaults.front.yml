@@ -9,3 +9,6 @@ label: 'Front page'
 tags:
   canonical_url: '[site:url]'
   shortlink: '[site:url]'
+  title: 'NorthEnd.page | providing access to and a platform to discuss news that affects residents of the North End'
+  twitter_cards_image: 'https://northend.page/favicon/logo--with-text.png'
+  twitter_cards_type: summary

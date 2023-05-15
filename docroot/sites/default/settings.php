@@ -249,7 +249,7 @@ $databases = [];
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = 'HrznrkIW5O2msRmidLa2imnIokK7JpI7ssB6msfMzbMhczh4kEKZi37zwSQ3v-GfO5QWOzajeg';
+$settings['hash_salt'] = 'oazKA7j428FFeJDTO3Ui3iNi5dop_AJ7AuSO0R765eTsTUA_lP7Ag1pmTIYotPNTdlfuqSQeAQ';
 
 /**
  * Deployment identifier.
@@ -769,7 +769,6 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
  *
  * Keep this code block at the end of this file to take full effect.
  */
-
 if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
   include $app_root . '/' . $site_path . '/settings.local.php';
 }
@@ -777,4 +776,3 @@ if (file_exists('/var/www/do/do_creds.php')) {
     include '/var/www/do/do_creds.php';
 }
 $settings['config_sync_directory'] = '../config/sync/default/';
-

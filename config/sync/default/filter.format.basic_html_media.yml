@@ -25,6 +25,7 @@ filters:
         audio: audio
         document: document
         image: image
+        instagram: instagram
         remote_video: remote_video
         tweet: tweet
   filter_html:

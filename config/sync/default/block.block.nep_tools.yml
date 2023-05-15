@@ -13,7 +13,7 @@ _core:
 id: nep_tools
 theme: nep
 region: sidebar_second
-weight: -8
+weight: -2
 provider: null
 plugin: 'system_menu_block:tools'
 settings:

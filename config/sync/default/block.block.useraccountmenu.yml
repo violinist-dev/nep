@@ -11,7 +11,7 @@ dependencies:
 id: useraccountmenu
 theme: nep
 region: sidebar_second
-weight: 0
+weight: -4
 provider: null
 plugin: 'system_menu_block:account'
 settings:

@@ -1,0 +1,24 @@
+uuid: 61a095c4-4b38-4e9c-ac91-79c974e80cd1
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.comments_recent
+  module:
+    - views
+  theme:
+    - nep
+id: views_block__comments_recent_block_1
+theme: nep
+region: sidebar_second
+weight: -3
+provider: null
+plugin: 'views_block:comments_recent-block_1'
+settings:
+  id: 'views_block:comments_recent-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }
