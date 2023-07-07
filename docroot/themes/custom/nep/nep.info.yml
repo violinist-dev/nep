@@ -3,7 +3,6 @@ type: theme
 base theme: magazine_lite
 description: 'North End Page theme.'
 core: 8.x
-core_version_requirement: ^9 || ^10
 libraries:
   - nep/global-styling
 libraries-override:
