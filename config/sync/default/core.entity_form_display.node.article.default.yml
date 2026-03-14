@@ -7,7 +7,9 @@ dependencies:
     - field.field.node.article.comment
     - field.field.node.article.field_featured_image
     - field.field.node.article.field_featured_video
+    - field.field.node.article.field_gallery_images
     - field.field.node.article.field_tags
+    - image.style.thumbnail
     - node.type.article
     - workflows.workflow.content
   module:
@@ -15,6 +17,7 @@ dependencies:
     - content_moderation
     - media_library
     - path
+    - svg_image
     - text
 _core:
   default_config_hash: Pzq9mzrsfoPf775qgEU_SUbHSro9pv1ga-Euh1Ykd_k
@@ -59,6 +62,14 @@ content:
     settings:
       media_types: {  }
     third_party_settings: {  }
+  field_gallery_images:
+    type: image_image
+    weight: 131
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
   field_tags:
     type: entity_reference_autocomplete_tags
     weight: 3
@@ -87,6 +98,16 @@ content:
     region: content
     settings:
       display_label: true
+    third_party_settings: {  }
+  simple_sitemap:
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  simple_sitemap_index_now:
+    weight: 130
+    region: content
+    settings: {  }
     third_party_settings: {  }
   status:
     type: boolean_checkbox
@@ -119,5 +140,10 @@ content:
       match_limit: 10
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  url_redirects:
+    weight: 50
+    region: content
+    settings: {  }
     third_party_settings: {  }
 hidden: {  }

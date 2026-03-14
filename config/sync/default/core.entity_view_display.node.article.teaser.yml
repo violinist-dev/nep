@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.article.comment
     - field.field.node.article.field_featured_image
     - field.field.node.article.field_featured_video
+    - field.field.node.article.field_gallery_images
     - field.field.node.article.field_tags
     - node.type.article
   module:
@@ -66,3 +67,4 @@ content:
     region: content
 hidden:
   comment: true
+  field_gallery_images: true

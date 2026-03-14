@@ -20,7 +20,7 @@ content:
     type: oembed
     label: hidden
     settings:
-      max_width: 0
+      max_width: 1920
       max_height: 400
     third_party_settings: {  }
     weight: 0

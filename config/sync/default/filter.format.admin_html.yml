@@ -1,0 +1,29 @@
+uuid: 8c7f8733-39ec-4d34-b2af-3d1d28a7963b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.embedded
+  module:
+    - media
+name: 'Admin HTML'
+format: admin_html
+weight: 0
+filters:
+  media_embed:
+    id: media_embed
+    provider: media
+    status: true
+    weight: 100
+    settings:
+      default_view_mode: default
+      allowed_view_modes:
+        default: default
+        embedded: embedded
+      allowed_media_types:
+        audio: audio
+        document: document
+        image: image
+        instagram: instagram
+        remote_video: remote_video
+        tweet: tweet

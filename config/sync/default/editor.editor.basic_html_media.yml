@@ -21,6 +21,7 @@ settings:
       - numberedList
       - '|'
       - drupalMedia
+      - insertTable
   plugins:
     ckeditor5_heading:
       enabled_headings:

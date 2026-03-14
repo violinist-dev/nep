@@ -405,7 +405,7 @@ display:
           entity_field: mail
           plugin_id: field
           label: ''
-          exclude: true
+          exclude: false
           alter:
             alter_text: false
             text: ''
